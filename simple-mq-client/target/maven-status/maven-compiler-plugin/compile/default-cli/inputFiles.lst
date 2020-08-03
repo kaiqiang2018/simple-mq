@@ -1,0 +1,8 @@
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/store/StoreIterator.java
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/productor/ProductMessage.java
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/CommonMessage.java
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/IdGenerator.java
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/MessageProductor.java
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/store/ClientStore.java
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/SimpleIdGenerator.java
+/home/kaiqiang/WorkSpace/simple-mq/simple-mq-client/src/main/java/com/kaiqiang/simple/mq/client/store/MysqlClientStore.java

@@ -11,5 +11,8 @@
 
     <artifactId>simple-mq-server</artifactId>
 
+    <dependencies>
+
+    </dependencies>
 
 </project>
