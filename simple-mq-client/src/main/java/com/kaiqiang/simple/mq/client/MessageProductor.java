@@ -87,7 +87,7 @@ public class MessageProductor {
         List<Thread> worker = new ArrayList<>();
         for (int c = 0; c < 30; c++) {
             worker.add(new Thread(() -> {
-                for (int i = 0; i < 10000; i++) {
+                for (int i = 0; i < 2000; i++) {
                     try {
                         ProductMessage message = productor.generateMessage("app.order.finished");
                         message.setProperty("userName", "kaiqiang" + i);

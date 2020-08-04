@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="simple-mq@localhost" uuid="7ac47cc0-5bda-4990-afe8-323e6c73b811">
+    <data-source source="LOCAL" name="simple-mq-client@localhost" uuid="7ac47cc0-5bda-4990-afe8-323e6c73b811">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/simple_mq_client</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="simple-mq-server@localhost" uuid="617312cf-091e-47b1-9e28-6852de5abf87">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/simple_mq_server</jdbc-url>
     </data-source>
   </component>
 </project>
