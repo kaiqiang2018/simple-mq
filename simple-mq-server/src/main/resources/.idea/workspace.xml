@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ccdc341-5281-4ad4-8139-cba024c9d00e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../java/com/kaiqiang/simple/mq/server/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/kaiqiang/simple/mq/server/config/SubjectAndConsume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/kaiqiang/simple/mq/server/store/MysqlServerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/kaiqiang/simple/mq/server/store/ServerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/kaiqiang/simple/mq/server/util/JacksonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="/opt/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fo1WCA9IByTGeykoEGBx8MYKhF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ccdc341-5281-4ad4-8139-cba024c9d00e" name="Default Changelist" comment="" />
+      <created>1596869660941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596869660941</updated>
+      <workItem from="1596869662053" duration="36000" />
+      <workItem from="1596869708755" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

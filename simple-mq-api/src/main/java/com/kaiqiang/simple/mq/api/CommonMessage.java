@@ -1,4 +1,4 @@
-package com.kaiqiang.simple.mq.client;
+package com.kaiqiang.simple.mq.api;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;

@@ -14,7 +14,7 @@ public interface MessageService {
      *
      * @throws MessagePrefixNotAllowed 消息前缀不被允许
      */
-    void sendMessage(Message message) throws MessagePrefixNotAllowed;
+    void sendMessage(Message message) throws Exception;
 
     /**
      * 拉取要处理的消息
