@@ -23,18 +23,22 @@ public class LocalCache<T, C> {
         this.transfer = transfer;
     }
 
-    // TODO: 2020/8/8  优化synchronized
-    public synchronized C getValue(T t) {
-        if(t == null) {
-            throw new IllegalArgumentException("Parameter 't' should not be null.");
-        }
+    /**
+     * 参考单例模式
+     *
+     * @param t not null
+     */
+    public C getValue(T t) {
         C cacheValue = cache.get(t);
-        if(cacheValue != null) {
-            return cacheValue;
+        if(cacheValue == null) {
+            synchronized (this) {
+                cacheValue = cache.get(t);
+                if(cacheValue == null) {
+                    cacheValue = transfer.apply(t);
+                    cache.put(t, cacheValue);
+                }
+            }
         }
-
-        C newValue = transfer.apply(t);
-        cache.put(t, newValue);
-        return newValue;
+        return cacheValue;
     }
 }

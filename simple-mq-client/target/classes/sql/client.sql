@@ -13,8 +13,8 @@ CREATE TABLE simple_mq_message
     state          TINYINT        not null COMMENT '当前状态',
 
     PRIMARY KEY (id),
-    UNIQUE KEY uniq_name (message_id),
-    KEY idx_id_next_send_time_state (id, next_send_time, state)
+    UNIQUE KEY uniq_message_id (message_id),
+    KEY idx_next_send_time_state (id, next_send_time, state)
 ) ENGINE = MyISAM
   DEFAULT CHARSET = utf8mb4 COMMENT ='simple-mq client端消息持久化表';
 

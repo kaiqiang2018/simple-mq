@@ -1,7 +1,4 @@
-package com.kaiqiang.simple.mq.client.productor;
-
-
-import com.kaiqiang.simple.mq.api.CommonMessage;
+package com.kaiqiang.simple.mq.api;
 
 import java.time.LocalDateTime;
 

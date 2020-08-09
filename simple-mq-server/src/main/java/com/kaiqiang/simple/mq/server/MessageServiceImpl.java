@@ -2,6 +2,7 @@ package com.kaiqiang.simple.mq.server;
 
 import com.kaiqiang.simple.mq.api.Message;
 import com.kaiqiang.simple.mq.api.MessageService;
+import com.kaiqiang.simple.mq.api.ProductMessage;
 import com.kaiqiang.simple.mq.api.exception.MessagePrefixNotAllowed;
 import com.kaiqiang.simple.mq.server.config.SubjectAndConsume;
 import com.kaiqiang.simple.mq.server.config.SubjectAndConsume.MessageStoreConfig;
@@ -37,7 +38,7 @@ public class MessageServiceImpl implements MessageService {
     }
 
     @Override
-    public void sendMessage(Message message) throws Exception {
+    public void sendMessage(ProductMessage message) throws Exception {
         String subject = message.getSubject();
         SubjectAndConsume config = subjectConfigMap.get(subject);
         if(config == null) {

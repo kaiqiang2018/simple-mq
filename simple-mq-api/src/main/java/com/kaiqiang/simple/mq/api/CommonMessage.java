@@ -1,10 +1,9 @@
 package com.kaiqiang.simple.mq.api;
 
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kaiqiang.simple.mq.api.Message;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +12,7 @@ import java.util.Map;
  * @Author kaiqiang
  * @Date 2020/07/29
  */
-public class CommonMessage implements Message {
+public class CommonMessage implements Message, Serializable {
 
     private final static ObjectMapper objectMapper = new ObjectMapper();
 

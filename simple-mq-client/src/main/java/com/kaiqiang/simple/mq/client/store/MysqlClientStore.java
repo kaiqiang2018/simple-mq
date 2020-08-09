@@ -2,7 +2,7 @@ package com.kaiqiang.simple.mq.client.store;
 
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
-import com.kaiqiang.simple.mq.client.productor.ProductMessage;
+import com.kaiqiang.simple.mq.api.ProductMessage;
 import org.apache.commons.dbutils.QueryRunner;
 
 import javax.sql.DataSource;

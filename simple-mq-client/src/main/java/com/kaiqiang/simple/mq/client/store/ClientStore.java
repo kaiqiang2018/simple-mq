@@ -1,6 +1,6 @@
 package com.kaiqiang.simple.mq.client.store;
 
-import com.kaiqiang.simple.mq.client.productor.ProductMessage;
+import com.kaiqiang.simple.mq.api.ProductMessage;
 
 import java.sql.SQLException;
 import java.time.LocalDateTime;

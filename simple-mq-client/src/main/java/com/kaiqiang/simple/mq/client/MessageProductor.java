@@ -3,15 +3,13 @@ package com.kaiqiang.simple.mq.client;
 
 import com.kaiqiang.simple.mq.api.MessageService;
 import com.kaiqiang.simple.mq.api.exception.MessagePrefixNotAllowed;
-import com.kaiqiang.simple.mq.client.productor.ProductMessage;
+import com.kaiqiang.simple.mq.api.ProductMessage;
 import com.kaiqiang.simple.mq.client.store.ClientStore;
 import com.kaiqiang.simple.mq.client.store.MysqlClientStore;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @Author kaiqiang
@@ -23,9 +21,13 @@ public class MessageProductor {
 
     private static final IdGenerator idGenerator = new SimpleIdGenerator();
 
-    private MessageService messageService = null;
+    private MessageService messageService;
 
-    private ClientStore clientStore = new MysqlClientStore();
+    private final ClientStore clientStore = new MysqlClientStore();
+
+    public MessageProductor(MessageService messageService) {
+        this.messageService = messageService;
+    }
 
     public ProductMessage generateMessage(String subject) {
         ProductMessage message = new ProductMessage(idGenerator.getNextId(), subject, LocalDateTime.now());
@@ -45,7 +47,7 @@ public class MessageProductor {
         try {
             messageService.sendMessage(message);
         } catch (Exception e) {
-            //log.error("发送消息失败, message = {}", message, e);
+            log.error("发送消息失败, message = {}", message, e);
             boolean notAllowed = e instanceof MessagePrefixNotAllowed;
             try {
                 if(message.isStored()) {
@@ -76,35 +78,5 @@ public class MessageProductor {
     private LocalDateTime getNextSendTime(int currentSendCount) {
         // TODO: 20-8-2
         return LocalDateTime.now().plusMinutes(5);
-    }
-
-    // TODO: 20-8-2 Test
-    public static void main(String[] args) throws InterruptedException {
-        MessageProductor productor = new MessageProductor();
-
-        long start = System.currentTimeMillis();
-
-        List<Thread> worker = new ArrayList<>();
-        for (int c = 0; c < 30; c++) {
-            worker.add(new Thread(() -> {
-                for (int i = 0; i < 2000; i++) {
-                    try {
-                        ProductMessage message = productor.generateMessage("app.order.finished");
-                        message.setProperty("userName", "kaiqiang" + i);
-                        message.setProperty("salary", "71990000" + i);
-                        productor.sendMessage(message);
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-
-            }));
-        }
-        for (Thread w : worker) {
-            w.start();
-            w.join();
-        }
-
-        System.out.println("time " + (System.currentTimeMillis() - start));
     }
 }
