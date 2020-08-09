@@ -19,7 +19,7 @@ public class MessageProductor {
 
     private static final Logger log = LoggerFactory.getLogger(MessageProductor.class);
 
-    private static final IdGenerator idGenerator = new SimpleIdGenerator();
+    private static final IdGenerator idGenerator = new SnowFlakeIdGenerator(1, 1);
 
     private MessageService messageService;
 
