@@ -20,20 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc88019-7b87-44e5-b927-2078a013b942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/CommonMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/MessageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/java/com/kaiqiang/simple/mq/server/SimpleMqServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/java/com/kaiqiang/simple/mq/server/store/ServerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/java/com/kaiqiang/simple/mq/server/store/mysql/MessageStoreEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/java/com/kaiqiang/simple/mq/server/store/mysql/MysqlServerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/resources/sql/server.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-mq-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-mq-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,10 +68,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kaiqiang.simple.mq.server.store" />
       <recent name="com.kaiqiang.simple.mq.api" />
       <recent name="" />
     </key>
@@ -95,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598964111052</updated>
       <workItem from="1598964113943" duration="673000" />
-      <workItem from="1599051329848" duration="445000" />
+      <workItem from="1599051329848" duration="1479000" />
     </task>
     <servers />
   </component>
@@ -115,6 +122,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1134" y="583" width="1416" height="298" key="#SQL_Dialects" timestamp="1599052280920">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1134" y="583" width="1416" height="298" key="#SQL_Dialects/0.27.2560.1413@0.27.2560.1413" timestamp="1599052280920" />
+    <state x="1728" y="435" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1599052722408">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1728" y="435" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.27.2560.1413@0.27.2560.1413" timestamp="1599052722408" />
     <state x="259" y="428" width="747" height="602" key="new project wizard" timestamp="1598964456590">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>

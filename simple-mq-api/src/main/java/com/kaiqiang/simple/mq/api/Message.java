@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public interface Message {
 
-    long getMessageId();
+    String getMessageId();
 
     String getSubject();
 

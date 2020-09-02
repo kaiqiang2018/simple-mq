@@ -13,6 +13,13 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.kaiqiang</groupId>
+            <artifactId>simple-mq-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
         <!-- dao -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
