@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edc88019-7b87-44e5-b927-2078a013b942" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/CommonMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api/MessageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/java/com/kaiqiang/simple/mq/server/SimpleMqServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-mq-server/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="/opt/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1guUkCbDrCgv3CzhoQYQboLHtLQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kaiqiang.simple.mq.api" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/simple-mq-api/src/main/java/com/kaiqiang/simple/mq/api" />
+      <recent name="$PROJECT_DIR$/simple-mq-server/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SimpleMqServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple-mq-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaiqiang.simple.mq.server.SimpleMqServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edc88019-7b87-44e5-b927-2078a013b942" name="Default Changelist" comment="" />
+      <created>1598964111052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598964111052</updated>
+      <workItem from="1598964113943" duration="673000" />
+      <workItem from="1599051329848" duration="445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="259" y="428" width="747" height="602" key="new project wizard" timestamp="1598964456590">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="259" y="428" width="747" height="602" key="new project wizard/0.27.2560.1413@0.27.2560.1413" timestamp="1598964456590" />
+  </component>
+</project>
